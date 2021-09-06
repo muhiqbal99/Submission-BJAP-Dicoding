@@ -53,8 +53,9 @@ class MovieAdapter :
 
                 tvTitle.text = movieItem.title
                 tvRating.text = movieItem.score
-                tvGenre.text = movieItem.genre
-
+                val genre = movieItem.genre
+                val genreSingle = genre.split(",").toTypedArray()
+                tvGenre.text = genreSingle[0]
                 root.setOnClickListener {
                     onItemClickCallback?.onItemClicked(movieItem)
                 }
