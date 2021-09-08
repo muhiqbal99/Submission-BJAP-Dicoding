@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Submission BAJP</string>
+    <string name="desc_img_logo">Logo Aplikasi</string>
+    <string name="desc_img_movie">Poster Movie</string>
+
+    <string name="dummy_overview">As the Avengers and their allies have continued to protect the world from threats too large for any one hero to handle, a new danger has emerged from the cosmic shadows: Thanos</string>
+    <string name="dummy_rating">7.8</string>
+    <string name="dummy_release_date">24–04–2018</string>
+    <string name="dummy_title">Avenger; Infinity War</string>
+
+    <string name="movie">Movie</string>
+    <string name="tvshow">TvShow</string>
+
+</resources>
