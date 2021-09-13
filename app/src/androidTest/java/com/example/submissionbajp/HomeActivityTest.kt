@@ -1,6 +1,7 @@
 package com.example.submissionbajp
 
 import androidx.recyclerview.widget.RecyclerView
+import androidx.test.core.app.ActivityScenario
 import androidx.test.espresso.Espresso.onView
 import androidx.test.espresso.IdlingRegistry
 import androidx.test.espresso.action.ViewActions
@@ -9,23 +10,18 @@ import androidx.test.espresso.contrib.RecyclerViewActions
 import androidx.test.espresso.matcher.ViewMatchers
 import androidx.test.espresso.matcher.ViewMatchers.withId
 import androidx.test.espresso.matcher.ViewMatchers.withText
-import androidx.test.rule.ActivityTestRule
 import com.example.submissionbajp.utils.EspressoIdlingResource
 import org.junit.After
 import org.junit.Before
-import org.junit.Rule
 import org.junit.Test
 
 class HomeActivityTest {
 
-    @get:Rule
-    val activity = ActivityTestRule(HomeActivity::class.java)
-
     @Before
     fun setUp() {
+        ActivityScenario.launch(HomeActivity::class.java)
         IdlingRegistry.getInstance().register(EspressoIdlingResource.espressoTestIdlingResource)
     }
-
 
     @After
     fun tearDown() {

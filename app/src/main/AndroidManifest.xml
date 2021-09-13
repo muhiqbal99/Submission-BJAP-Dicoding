@@ -14,8 +14,8 @@
         android:theme="@style/Theme.SubmissionBAJP">
         <activity
             android:name=".SplashActivity"
-            android:exported="true"
-            android:theme="@style/Theme.SubmissionBAJP.FullScreen">
+            android:theme="@style/Theme.SubmissionBAJP.FullScreen"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
