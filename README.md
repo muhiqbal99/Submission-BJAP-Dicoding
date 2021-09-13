@@ -2,6 +2,8 @@
 Submission BJAP3 Dicoding
 
 Skenario Test :
+
+
     1. Menampilkan data movie
     - Memastikan rv_movie dalam keadaan tampil
     - Gulir rv_movie ke posisi terakhir
