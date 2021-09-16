@@ -1,6 +1,6 @@
 #Submission-Dicoding-BAJP
 
-![MovieApp](/mad_scorecard/summary.png)
+![Summary](/mad_scorecard/summary.png)
 
 Aplikasi ini dibuat sebagai syarat kelulusan kelas Belajar Android Jetpack Pro (BAJP) Dicoding. <p>
 Aplikasi ini memiliki fitur :
